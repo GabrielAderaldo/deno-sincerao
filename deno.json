@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true
+  },
+  "lint": {
+    "include": ["src", "tests"],
+    "exclude": ["node_modules"]
+  },
+  "fmt": {
+    "include": ["src", "tests", "mod.ts"]
+  },
+  "tasks": {
+    "test": "deno test",
+    "lint": "deno lint",
+    "fmt": "deno fmt"
+  }
+}

@@ -1,0 +1,21 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.code-workspace
+
+# Deno
+deno.lock
+deno.jsonc
+
+# Test snapshots, se um dia usar
+__snapshots__/
+
+# Logs
+*.log
+
+# Outros
+node_modules/  # só se alguém tentar usar sem saber que é Deno

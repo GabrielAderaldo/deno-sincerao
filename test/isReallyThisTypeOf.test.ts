@@ -1,7 +1,7 @@
 import {
   isReallyThisTypeOf,
   TYPES,
-} from "../mod.ts";
+} from "../deno-sincerao.ts";
 import { assertEquals } from "https://deno.land/std@0.203.0/assert/mod.ts";
 
 // STRINGS
